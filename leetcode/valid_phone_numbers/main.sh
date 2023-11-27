@@ -1,0 +1,1 @@
+sed -n -e '/^[[:digit:]]\{3\}-[[:digit:]]\{3\}\-[[:digit:]]\{4\}$/p' -e '/^([[:digit:]]\{3\})[[:space:]]\{1\}[[:digit:]]\{3\}\-[[:digit:]]\{4\}$/p' file.txt;
